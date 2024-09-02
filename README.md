@@ -10,3 +10,11 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 4. [Data Loading and Unloading](#4-data-loading-and-unloading)
 5. [Data Transformations](#5-data-transformations)
 6. [Data Protection and Data Sharing](#6-data-protection-and-data-sharing)
+
+---
+
+## 1. Snowflake Data Cloud Features and Architecture
+
+### Outline Key Features of the Snowflake Data Cloud
+
+- **Elastic Storage**: Snowflake’s scalable storage layer allows on-demand scaling without impacting compute performance.
