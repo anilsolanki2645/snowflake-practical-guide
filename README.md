@@ -18,3 +18,8 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 ### Outline Key Features of the Snowflake Data Cloud
 
 - **Elastic Storage**: Snowflake’s scalable storage layer allows on-demand scaling without impacting compute performance.
+- **Elastic Compute**: Compute and storage are completely separate, allowing dynamic scaling of compute resources.
+- **Snowflake’s Three Distinct Layers**:
+  - **Storage Layer**: Manages structured and semi-structured data storage.
+  - **Compute Layer**: Executes queries using independent virtual warehouses.
+  - **Cloud Services Layer**: Manages security, metadata, and query optimization.
