@@ -23,3 +23,5 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **Storage Layer**: Manages structured and semi-structured data storage.
   - **Compute Layer**: Executes queries using independent virtual warehouses.
   - **Cloud Services Layer**: Manages security, metadata, and query optimization.
+- **Cloud Partner Categories**: Supports AWS, Azure, and Google Cloud Platform, providing flexibility and integration with major cloud providers.
+- **Overview of Snowflake Editions**: Snowflake offers Standard, Enterprise, Business Critical, and VPS editions, each with specific features for performance, security, and compliance.
