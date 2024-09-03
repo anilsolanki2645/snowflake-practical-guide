@@ -34,3 +34,10 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Snowflake Drivers**: JDBC and ODBC drivers allow Snowflake to connect with external tools and applications.
 - **Snowpark**: Enables data engineers to build data pipelines and applications directly within Snowflake using Java, Python, or Scala.
 - **SnowCD**: Continuous data loading for automating the loading of data into Snowflake.
+
+### Outline Snowflake’s Catalog and Objects
+
+- **Databases**: Logical containers for schemas, tables, and other objects.
+- **Stages**: Temporary storage locations for data loading and unloading.
+- **Schema Types**: Organize tables, views, and other database objects within databases.
+- **Table Types**: Permanent, transient, temporary, and external tables.
