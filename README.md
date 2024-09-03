@@ -41,3 +41,6 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Stages**: Temporary storage locations for data loading and unloading.
 - **Schema Types**: Organize tables, views, and other database objects within databases.
 - **Table Types**: Permanent, transient, temporary, and external tables.
+- **View Types**: Standard and materialized views.
+- **Data Types**: Define the type of data stored in columns (e.g., STRING, INTEGER).
+- **User-Defined Functions (UDFs)**: Custom functions for data processing.
