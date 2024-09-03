@@ -25,3 +25,7 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **Cloud Services Layer**: Manages security, metadata, and query optimization.
 - **Cloud Partner Categories**: Supports AWS, Azure, and Google Cloud Platform, providing flexibility and integration with major cloud providers.
 - **Overview of Snowflake Editions**: Snowflake offers Standard, Enterprise, Business Critical, and VPS editions, each with specific features for performance, security, and compliance.
+
+### Outline Key Snowflake Tools and User Interfaces
+
+- **Snowsight**: Snowflake’s modern user interface for visual data exploration, querying, and performance analysis.
