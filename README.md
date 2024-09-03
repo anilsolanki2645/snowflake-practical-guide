@@ -51,3 +51,9 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Pipes**: Automate continuous data loading using Snowpipe.
 - **Shares**: Securely share data between different Snowflake accounts.
 - **Sequences**: Generate unique numeric values, often used for primary keys.
+
+### Outline Snowflake Storage Concepts
+
+- **Micro-partitions**: Small chunks of data automatically partitioned by Snowflake, optimizing performance and storage.
+- **Data Clustering**: Organizes data within micro-partitions for optimized query performance.
+- **Data Storage Monitoring**: Tracks storage usage and helps optimize costs.
