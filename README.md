@@ -29,3 +29,8 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 ### Outline Key Snowflake Tools and User Interfaces
 
 - **Snowsight**: Snowflake’s modern user interface for visual data exploration, querying, and performance analysis.
+- **SnowSQL**: A command-line interface for interacting with Snowflake, ideal for running queries, scripts, and managing accounts.
+- **Snowflake Connectors**: Enable integration with various applications, such as Python, Spark, and more.
+- **Snowflake Drivers**: JDBC and ODBC drivers allow Snowflake to connect with external tools and applications.
+- **Snowpark**: Enables data engineers to build data pipelines and applications directly within Snowflake using Java, Python, or Scala.
+- **SnowCD**: Continuous data loading for automating the loading of data into Snowflake.
