@@ -44,3 +44,10 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **View Types**: Standard and materialized views.
 - **Data Types**: Define the type of data stored in columns (e.g., STRING, INTEGER).
 - **User-Defined Functions (UDFs)**: Custom functions for data processing.
+- **User Defined Table Functions (UDTFs)**: Return sets of rows, enhancing query capabilities.
+- **Stored Procedures**: Blocks of code for automating processes in Snowflake.
+- **Streams**: Track changes in tables for incremental data processing.
+- **Tasks**: Schedule and automate SQL statements, including data transformations.
+- **Pipes**: Automate continuous data loading using Snowpipe.
+- **Shares**: Securely share data between different Snowflake accounts.
+- **Sequences**: Generate unique numeric values, often used for primary keys.
