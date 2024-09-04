@@ -57,3 +57,15 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Micro-partitions**: Small chunks of data automatically partitioned by Snowflake, optimizing performance and storage.
 - **Data Clustering**: Organizes data within micro-partitions for optimized query performance.
 - **Data Storage Monitoring**: Tracks storage usage and helps optimize costs.
+
+---
+
+## 2. Account Access and Security
+
+### Outline Security Principles
+
+- **Network Security and Policies**: Secure access to Snowflake with network policies, private endpoints, and firewalls.
+- **Multi-Factor Authentication (MFA)**: Adds an additional layer of security for user authentication.
+- **Federated Authentication**: Integrate Snowflake with external identity providers for seamless user access.
+- **Key Pair Authentication**: Secure method using public and private keys for user authentication.
+- **Single Sign-On (SSO)**: Allows users to access Snowflake using their corporate credentials.
