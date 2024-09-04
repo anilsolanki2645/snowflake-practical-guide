@@ -93,3 +93,13 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Object Tags**: Use tags for data classification, governance, and tracking.
 
 ---
+
+## 3. Performance Concepts
+
+### Explain the Use of the Query Profile
+
+- **Explain Plans**: Understand and optimize query execution plans.
+- **Data Spilling**: Identify and reduce performance impacts caused by spilling to local storage.
+- **Use of the Data Cache**: Leverage caching to speed up repeated queries.
+- **Micro-Partition Pruning**: Enhance performance by reading only the necessary data.
+- **Query History**: Analyze past queries to optimize performance.
