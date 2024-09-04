@@ -69,3 +69,11 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Federated Authentication**: Integrate Snowflake with external identity providers for seamless user access.
 - **Key Pair Authentication**: Secure method using public and private keys for user authentication.
 - **Single Sign-On (SSO)**: Allows users to access Snowflake using their corporate credentials.
+
+### Define the Entities and Roles Used in Snowflake
+
+- **Overview of Access Control**:
+  - **Access Control Frameworks**: Use roles and policies to manage user access.
+  - **Access Control Privileges**: Grants permissions to perform actions on objects.
+- **Outline How Privileges Can Be Granted and Revoked**: Use SQL commands to manage access control.
+- **Explain Role Hierarchy and Privilege Inheritance**: Roles can inherit privileges from other roles, streamlining access management.
