@@ -103,3 +103,12 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Use of the Data Cache**: Leverage caching to speed up repeated queries.
 - **Micro-Partition Pruning**: Enhance performance by reading only the necessary data.
 - **Query History**: Analyze past queries to optimize performance.
+
+### Explain Virtual Warehouse Configurations
+
+- **Types of Warehouses**: Standard, multi-cluster, and other specialized warehouses.
+- **Multi-Clustering Warehouses**:
+  - **Scaling Policies**: Define when additional clusters should be started or stopped.
+  - **Scaling Modes**: Auto-scale up or down based on load.
+- **Warehouse Sizing**: Choose the appropriate size for workload needs.
+- **Warehouse Settings and Access**: Configure permissions, suspend settings, and more.
