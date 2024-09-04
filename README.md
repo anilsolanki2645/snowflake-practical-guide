@@ -86,3 +86,10 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Secure Functions**: Ensure data is processed securely within custom functions.
 - **Information Schemas**: System views that provide metadata about objects and security.
 - **Access History**: Track and audit user access to objects for compliance.
+
+### Tracking Read/Write Operations
+
+- **Overview of Row/Column-Level Security**: Restrict data access at granular levels within tables.
+- **Object Tags**: Use tags for data classification, governance, and tracking.
+
+---
