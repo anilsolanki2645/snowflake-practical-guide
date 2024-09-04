@@ -77,3 +77,12 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **Access Control Privileges**: Grants permissions to perform actions on objects.
 - **Outline How Privileges Can Be Granted and Revoked**: Use SQL commands to manage access control.
 - **Explain Role Hierarchy and Privilege Inheritance**: Roles can inherit privileges from other roles, streamlining access management.
+
+### Outline Data Governance Capabilities in Snowflake
+
+- **Accounts**: Isolate and manage different environments within Snowflake.
+- **Organizations**: Group multiple Snowflake accounts under a single management layer.
+- **Secure Views**: Provide limited access to data through views with row-level security.
+- **Secure Functions**: Ensure data is processed securely within custom functions.
+- **Information Schemas**: System views that provide metadata about objects and security.
+- **Access History**: Track and audit user access to objects for compliance.
