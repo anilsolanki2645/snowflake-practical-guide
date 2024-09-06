@@ -112,3 +112,10 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **Scaling Modes**: Auto-scale up or down based on load.
 - **Warehouse Sizing**: Choose the appropriate size for workload needs.
 - **Warehouse Settings and Access**: Configure permissions, suspend settings, and more.
+
+### Outline Virtual Warehouse Performance Tools
+
+- **Monitoring Warehouse Loads**: Analyze warehouse performance using load monitoring tools.
+- **Scaling Up Compared to Scaling Out**: Understand the trade-offs of increasing size vs. adding clusters.
+- **Resource Monitors**: Set limits on resource consumption to manage costs.
+- **Query Acceleration Service**: Enhance performance for complex queries.
