@@ -154,3 +154,11 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **INSERT/INSERT OVERWRITE**: Insert data directly into tables.
 - **PUT**: Upload local files to a stage.
 - **VALIDATE**: Check data readiness before loading.
+
+### Define Concepts and Best Practices for Unloading Data
+
+- **File Size and Formats**: Optimize file size and choose suitable formats for exporting.
+  - **Overview of Compression Methods**: Use compression to reduce storage and transfer costs.
+- **Empty Strings and NULL Values**: Handle special cases appropriately when exporting data.
+- **Unloading to a Single File**: Combine data into a single file when needed.
+- **Unloading Relational Tables**: Export structured data efficiently.
