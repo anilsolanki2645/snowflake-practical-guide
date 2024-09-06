@@ -131,3 +131,15 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **Metadata Cache**: Caches object metadata for quick access.
   - **Result Cache**: Stores query results to avoid re-execution.
   - **Warehouse Cache**: Caches data to speed up repeated access.
+
+---
+
+## 4. Data Loading and Unloading
+
+### Define Concepts and Best Practices for Loading Data
+
+- **Stages and Stage Types**: Internal, external, and user stages for temporary data storage.
+- **File Size and Formats**: Choose appropriate file sizes and formats for efficient loading.
+- **Folder Structures**: Organize data files for easier management and loading.
+- **Ad Hoc/Bulk Loading**: Use commands like `COPY INTO` for efficient data loading.
+- **Snowpipe**: Automate continuous data loading with minimal manual intervention.
