@@ -143,3 +143,14 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Folder Structures**: Organize data files for easier management and loading.
 - **Ad Hoc/Bulk Loading**: Use commands like `COPY INTO` for efficient data loading.
 - **Snowpipe**: Automate continuous data loading with minimal manual intervention.
+
+### Outline Different Commands Used to Load Data
+
+- **CREATE STAGE**: Define a stage for data loading.
+- **CREATE FILE FORMAT**: Specify file format settings for loading data.
+- **CREATE PIPE**: Automate data loading with Snowpipe.
+- **CREATE EXTERNAL TABLE**: Reference external data without importing it into Snowflake.
+- **COPY INTO**: Load data from a stage into a table.
+- **INSERT/INSERT OVERWRITE**: Insert data directly into tables.
+- **PUT**: Upload local files to a stage.
+- **VALIDATE**: Check data readiness before loading.
