@@ -119,3 +119,15 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Scaling Up Compared to Scaling Out**: Understand the trade-offs of increasing size vs. adding clusters.
 - **Resource Monitors**: Set limits on resource consumption to manage costs.
 - **Query Acceleration Service**: Enhance performance for complex queries.
+
+### Optimize Query Performance
+
+- **Describe the Use of Materialized Views**: Speed up repeated query access by storing results.
+- **Use of Specific SELECT Commands**: Optimize query structures with best practices.
+- **Clustering**: Reorganize data for faster query performance.
+- **Search Optimization Service**: Use search optimization for more efficient lookups.
+- **Persisted Query Results**: Reuse results from previous queries to save compute.
+- **Understanding the Impact of Different Types of Caching**:
+  - **Metadata Cache**: Caches object metadata for quick access.
+  - **Result Cache**: Stores query results to avoid re-execution.
+  - **Warehouse Cache**: Caches data to speed up repeated access.
