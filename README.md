@@ -162,3 +162,11 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Empty Strings and NULL Values**: Handle special cases appropriately when exporting data.
 - **Unloading to a Single File**: Combine data into a single file when needed.
 - **Unloading Relational Tables**: Export structured data efficiently.
+
+### Outline Different Commands Used to Unload Data
+
+- **GET**: Retrieve files from a stage.
+- **LIST**: Display files stored in a stage.
+- **COPY INTO**: Export data from tables to stages.
+- **CREATE STAGE**: Set up storage for unloading data.
+- **CREATE FILE FORMAT**: Define the format for exported data files.
