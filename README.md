@@ -184,3 +184,11 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **Sampling Methods**:
     1. **Fraction-Based**: Sample a fraction of the data.
     2. **Fixed-Size**: Sample a fixed number of rows.
+- **Supported Function Types**:
+  - **System Functions**: Built-in functions for data manipulation.
+  - **Table Functions**: Return tables as query results.
+  - **External Functions**: Call external services for data processing.
+  - **User-Defined Functions (UDFs)**: Custom functions for specific use cases.
+- **Stored Procedures**: Automate tasks and complex logic within Snowflake.
+- **Streams**: Track changes in tables for downstream processing.
+- **Tasks**: Schedule and automate SQL tasks for data transformations.
