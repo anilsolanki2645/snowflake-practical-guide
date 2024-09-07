@@ -170,3 +170,17 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **COPY INTO**: Export data from tables to stages.
 - **CREATE STAGE**: Set up storage for unloading data.
 - **CREATE FILE FORMAT**: Define the format for exported data files.
+
+---
+
+## 5. Data Transformations
+
+### Explain How to Work with Standard Data
+
+- **Estimation Functions**: Use functions to estimate data size, counts, and more.
+- **Sampling**:
+  - **SAMPLE Command**: Randomly sample data rows.
+  - **/TABLESAMPLE Command**: Sample data directly from tables.
+  - **Sampling Methods**:
+    1. **Fraction-Based**: Sample a fraction of the data.
+    2. **Fixed-Size**: Sample a fixed number of rows.
