@@ -192,3 +192,15 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Stored Procedures**: Automate tasks and complex logic within Snowflake.
 - **Streams**: Track changes in tables for downstream processing.
 - **Tasks**: Schedule and automate SQL tasks for data transformations.
+
+### Explain How to Work with Semi-Structured Data
+
+- **Supported Data Formats, Data Types, and Sizes**: JSON, AVRO, PARQUET, and more.
+- **VARIANT Column**: Store semi-structured data in a flexible column type.
+- **Flattening the Nested Structure**:
+  - **FLATTEN Command**: Break down nested structures into tabular formats.
+  - **LATERAL FLATTEN Command**: Use within queries to expand nested data.
+- **Semi-Structured Data Functions**:
+  - **ARRAY/OBJECT Creation and Manipulation**: Build and modify nested data structures.
+  - **Extracting Values**: Retrieve specific elements from semi-structured data.
+  - **Type Predicates**: Functions to check data types within VARIANT columns.
