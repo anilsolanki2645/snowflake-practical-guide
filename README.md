@@ -204,3 +204,10 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
   - **ARRAY/OBJECT Creation and Manipulation**: Build and modify nested data structures.
   - **Extracting Values**: Retrieve specific elements from semi-structured data.
   - **Type Predicates**: Functions to check data types within VARIANT columns.
+
+### Explain How to Work with Unstructured Data
+
+- **Define and Use Directory Tables**: Organize unstructured data with directory tables.
+- **SQL File Functions**:
+  - **Types of URLs Available to Access Files**: Use internal and external URLs to access files.
+- **Outline the Purpose of User-Defined Functions (UDFs) for Data Analysis**: Enhance data processing with custom functions.
