@@ -223,3 +223,14 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **Data Encryption**: End-to-end encryption for data security.
 - **Cloning**: Create zero-copy clones for rapid data replication and testing.
 - **Replication**: Geo-replicate data across regions for resilience and disaster recovery.
+
+### Outline Snowflake Data Sharing Capabilities
+
+- **Account Types**: Manage data sharing within and across different account types.
+- **Snowflake Marketplace**: Share and access third-party data and services.
+- **Data Exchange**: Set up private data exchanges with partners and customers.
+- **Access Control Options**:
+  - **DDL Commands to Create and Manage Shares**: Use SQL commands for managing data shares.
+  - **Privileges Required for Working with Shares**: Define permissions for data access.
+- **Secure Data Sharing**:
+  - **Direct Share, Listing**: Securely share data without data movement.
