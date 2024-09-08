@@ -211,3 +211,15 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 - **SQL File Functions**:
   - **Types of URLs Available to Access Files**: Use internal and external URLs to access files.
 - **Outline the Purpose of User-Defined Functions (UDFs) for Data Analysis**: Enhance data processing with custom functions.
+
+---
+
+## 6. Data Protection and Data Sharing
+
+### Outline Continuous Data Protection with Snowflake
+
+- **Time Travel**: Access historical data up to 90 days for recovery and auditing.
+- **Fail-Safe**: Additional data protection period for critical data recovery.
+- **Data Encryption**: End-to-end encryption for data security.
+- **Cloning**: Create zero-copy clones for rapid data replication and testing.
+- **Replication**: Geo-replicate data across regions for resilience and disaster recovery.
