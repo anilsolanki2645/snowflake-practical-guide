@@ -237,3 +237,4 @@ Welcome to the **Snowflake Practical Guide** repository. This guide provides an 
 
 ---
 
+Thank you for exploring the Snowflake Practical Guide. This document provides a structured learning path for mastering Snowflake’s extensive capabilities.
