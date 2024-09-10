@@ -18,3 +18,8 @@ COMMENT = 'THIS IS GALAXY DATABASE THAT STORE GALAXY INFORMATION';
 -- [3] Create a Database Cloning an Existing Database:
 
 CREATE OR REPLACE DATABASE GALAXY_CLONED CLONE GALAXY;
+
+
+-- [4] Create a transient database that doesn't have fail-safe data protection
+
+CREATE OR REPLACE TRANSIENT DATABASE GALAXY_TRANSIENT;
