@@ -23,3 +23,9 @@ CREATE OR REPLACE DATABASE GALAXY_CLONED CLONE GALAXY;
 -- [4] Create a transient database that doesn't have fail-safe data protection
 
 CREATE OR REPLACE TRANSIENT DATABASE GALAXY_TRANSIENT;
+
+
+-- [5] Create a database with a specified data retention period
+
+CREATE OR REPLACE DATABASE GALAXY_WITH_RETENTION_TIME 
+DATA_RETENTION_TIME_IN_DAYS = 5;
