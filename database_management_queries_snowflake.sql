@@ -8,7 +8,13 @@
 
 CREATE DATABASE GALAXY;
 
+
 -- [2] Create a Database with a Comment and Replace if exists:
 
 CREATE OR REPLACE DATABASE GALAXY 
 COMMENT = 'THIS IS GALAXY DATABASE THAT STORE GALAXY INFORMATION';
+
+
+-- [3] Create a Database Cloning an Existing Database:
+
+CREATE OR REPLACE DATABASE GALAXY_CLONED CLONE GALAXY;
