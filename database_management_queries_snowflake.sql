@@ -34,3 +34,8 @@ DATA_RETENTION_TIME_IN_DAYS = 5;
 -- [6] List all databases available in the account
 
 SHOW DATABASES;
+
+
+-- [7] Show databases that match a specific pattern
+
+SHOW DATABASES LIKE 'GAL_%';
