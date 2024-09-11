@@ -39,3 +39,8 @@ SHOW DATABASES;
 -- [7] Show databases that match a specific pattern
 
 SHOW DATABASES LIKE 'GAL_%';
+
+
+-- [8] Describe the properties of a specific database
+
+DESCRIBE DATABASE GALAXY;
