@@ -49,3 +49,8 @@ DESCRIBE DATABASE GALAXY;
 -- [9] Switch to a specific database to start working within it
 
 USE DATABASE GALAXY_CLONED;
+
+
+-- [10] Rename an existing database
+
+ALTER DATABASE IF EXISTS GALAXY_CLONED RENAME TO GALAXY_STARTS;
