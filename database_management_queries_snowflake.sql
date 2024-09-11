@@ -44,3 +44,8 @@ SHOW DATABASES LIKE 'GAL_%';
 -- [8] Describe the properties of a specific database
 
 DESCRIBE DATABASE GALAXY;
+
+
+-- [9] Switch to a specific database to start working within it
+
+USE DATABASE GALAXY_CLONED;
