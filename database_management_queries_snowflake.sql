@@ -71,3 +71,8 @@ COMMENT = 'THIS IS GALAXY DATABASE THAT STORE GALAXY AND STAR INFORMATION';
 -- [13] Drop a specific database; this action deletes all schemas and tables within it
 
 DROP DATABASE GALAXY;
+
+
+-- [14] Drop a database only if it exists
+
+DROP DATABASE IF EXISTS GALAXY;
