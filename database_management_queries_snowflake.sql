@@ -76,3 +76,8 @@ DROP DATABASE GALAXY;
 -- [14] Drop a database only if it exists
 
 DROP DATABASE IF EXISTS GALAXY;
+
+
+-- [15] Restore a dropped database within the retention period
+
+UNDROP DATABASE GALAXY;
