@@ -66,3 +66,8 @@ SET DATA_RETENTION_TIME_IN_DAYS = 10;
 
 ALTER DATABASE GALAXY SET 
 COMMENT = 'THIS IS GALAXY DATABASE THAT STORE GALAXY AND STAR INFORMATION';
+
+
+-- [13] Drop a specific database; this action deletes all schemas and tables within it
+
+DROP DATABASE GALAXY;
