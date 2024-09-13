@@ -106,3 +106,8 @@ GRANT OWNERSHIP ON DATABASE GALAXY TO ROLE SYSADMIN;
 -- [20] Set a specific parameter for a database
 
 ALTER DATABASE GALAXY SET PARAMETER STATEMENT_TIMEOUT_IN_SECONDS = 300;
+
+
+-- [21] Refresh a cloned database to synchronize it with its source
+
+ALTER DATABASE GALAXY_STARTS REFRESH;
