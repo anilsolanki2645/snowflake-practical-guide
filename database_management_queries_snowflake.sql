@@ -96,3 +96,8 @@ REVOKE USAGE ON DATABASE GALAXY FROM ROLE SYSADMIN;
 -- [18] Revoke ALL privileges from a role on a database
 
 REVOKE ALL ON DATABASE GALAXY FROM ROLE SYSADMIN;
+
+
+-- [19] Transfer ownership of a database to another role
+
+GRANT OWNERSHIP ON DATABASE GALAXY TO ROLE SYSADMIN;
