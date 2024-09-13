@@ -81,3 +81,8 @@ DROP DATABASE IF EXISTS GALAXY;
 -- [15] Restore a dropped database within the retention period
 
 UNDROP DATABASE GALAXY;
+
+
+-- [16] Grant all privileges on a database to a specific role
+
+GRANT ALL PRIVILEGES ON DATABASE GALAXY TO ROLE SYSADMIN;
