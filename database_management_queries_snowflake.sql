@@ -91,3 +91,8 @@ GRANT ALL PRIVILEGES ON DATABASE GALAXY TO ROLE SYSADMIN;
 -- [17] Revoke specific privileges from a role on a database
 
 REVOKE USAGE ON DATABASE GALAXY FROM ROLE SYSADMIN;
+
+
+-- [18] Revoke ALL privileges from a role on a database
+
+REVOKE ALL ON DATABASE GALAXY FROM ROLE SYSADMIN;
