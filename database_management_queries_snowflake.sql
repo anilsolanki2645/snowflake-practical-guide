@@ -86,3 +86,8 @@ UNDROP DATABASE GALAXY;
 -- [16] Grant all privileges on a database to a specific role
 
 GRANT ALL PRIVILEGES ON DATABASE GALAXY TO ROLE SYSADMIN;
+
+
+-- [17] Revoke specific privileges from a role on a database
+
+REVOKE USAGE ON DATABASE GALAXY FROM ROLE SYSADMIN;
