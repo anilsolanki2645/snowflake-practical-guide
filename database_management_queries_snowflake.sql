@@ -115,3 +115,8 @@ ALTER DATABASE GALAXY_STARTS REFRESH;
 
 -- [22] Create a new database clone with a specific name
 CREATE OR REPLACE DATABASE GALAXY_MILKY CLONE GALAXY AT (TIMESTAMP => '2024-09-01 12:00:00');
+
+
+-- [23] Display roles that have privileges on a specific database
+SHOW GRANTS ON DATABASE GALAXY;
+
