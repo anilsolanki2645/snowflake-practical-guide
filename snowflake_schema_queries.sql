@@ -56,3 +56,8 @@ SHOW SCHEMAS;
 -- [10] Show Schemas in a Specific Database
 
 SHOW SCHEMAS IN DATABASE GALAXY;
+
+
+-- [11] Describe a Specific Schema
+
+DESCRIBE SCHEMA GALAXY_STAR_SCHEMA;
