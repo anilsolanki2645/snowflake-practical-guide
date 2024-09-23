@@ -51,3 +51,8 @@ CREATE SCHEMA GALAXY_STAR_SCHEMA_CLONE CLONE GALAXY_STAR_SCHEMA;
 -- [9] Show All Schemas in the Current Database
 
 SHOW SCHEMAS;
+
+
+-- [10] Show Schemas in a Specific Database
+
+SHOW SCHEMAS IN DATABASE GALAXY;
