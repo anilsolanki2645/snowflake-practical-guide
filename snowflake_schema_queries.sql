@@ -127,3 +127,8 @@ GRANT SELECT ON FUTURE TABLES IN SCHEMA STAR_SCHEMA TO ROLE SYSADMIN;
 
 ALTER SCHEMA STAR_SCHEMA SET DATA_RETENTION_TIME_IN_DAYS = 10;
 
+
+-- [23] CASCADE drops the schema and all objects in the schema, including tables with primary/unique keys that are referenced by foreign keys in other tables.
+
+DROP SCHEMA STAR_SCHEMA CASCADE;
+
