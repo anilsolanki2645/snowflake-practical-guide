@@ -132,3 +132,8 @@ ALTER SCHEMA STAR_SCHEMA SET DATA_RETENTION_TIME_IN_DAYS = 10;
 
 DROP SCHEMA STAR_SCHEMA CASCADE;
 
+
+-- [24] RESTRICT returns a warning about existing foreign key references and does not drop the schema.
+
+DROP SCHEMA STAR_SCHEMA RESTRICT;
+
