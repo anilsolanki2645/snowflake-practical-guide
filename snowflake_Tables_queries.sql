@@ -16,3 +16,11 @@ CREATE TABLE EMPLOYEE (
     name STRING,
     created_at TIMESTAMP
 ); 
+
+
+-- [2] Create a Temporary Table
+
+CREATE TEMPORARY TABLE TEMP_EMPLOYEE (
+    session_id INT,
+    user_name STRING
+); 
