@@ -24,3 +24,12 @@ CREATE TEMPORARY TABLE TEMP_EMPLOYEE (
     session_id INT,
     user_name STRING
 ); 
+
+
+-- [3] Create a Transient Table
+
+CREATE TRANSIENT TABLE TRANSIENT_EMPLOYEE (
+    sale_id INT,
+    product_id INT,
+    amount DECIMAL(10, 2)
+);
