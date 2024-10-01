@@ -33,3 +33,14 @@ CREATE TRANSIENT TABLE TRANSIENT_EMPLOYEE (
     product_id INT,
     amount DECIMAL(10, 2)
 );
+
+
+-- [4] Create an External Table
+
+CREATE EXTERNAL TABLE EXTERNAL_EMPLOYEE (
+    id INT,
+    data STRING,
+    created_at TIMESTAMP
+)
+WITH LOCATION = @my_external_stage
+FILE_FORMAT = (TYPE = 'CSV');
