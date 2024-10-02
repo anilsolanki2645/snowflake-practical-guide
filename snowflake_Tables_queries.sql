@@ -65,3 +65,11 @@ CREATE TABLE PRODUCT (
     price DECIMAL(10, 2) DEFAULT 0.00
 );
 
+
+-- [7] Create a Table with a Sequence as a Default Value
+
+CREATE SEQUENCE PRODUCT_SEQ;
+CREATE TABLE PRODUCT_SEQ_TAB (
+    product_id INT DEFAULT PRODUCT_SEQ.NEXTVAL,
+    product_name STRING
+);
