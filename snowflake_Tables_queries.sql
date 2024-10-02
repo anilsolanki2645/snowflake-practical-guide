@@ -44,3 +44,14 @@ CREATE EXTERNAL TABLE EXTERNAL_EMPLOYEE (
 )
 WITH LOCATION = @my_external_stage
 FILE_FORMAT = (TYPE = 'CSV');
+
+
+-- [5] Create a Table with a Clustering Key
+
+CREATE TABLE ORDERS (
+    order_id INT,
+    customer_id INT,
+    order_date DATE,
+    amount DECIMAL(10, 2)
+)
+CLUSTER BY (customer_id, order_date);
