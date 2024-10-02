@@ -55,3 +55,13 @@ CREATE TABLE ORDERS (
     amount DECIMAL(10, 2)
 )
 CLUSTER BY (customer_id, order_date);
+
+
+-- [6] Create a Table with a Default Value
+
+CREATE TABLE PRODUCT (
+    product_id INT,
+    product_name STRING,
+    price DECIMAL(10, 2) DEFAULT 0.00
+);
+
