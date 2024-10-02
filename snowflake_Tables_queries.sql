@@ -73,3 +73,11 @@ CREATE TABLE PRODUCT_SEQ_TAB (
     product_id INT DEFAULT PRODUCT_SEQ.NEXTVAL,
     product_name STRING
 );
+
+
+-- [8] Create a Table with a Unique Constraint
+
+CREATE TABLE UNIQUE_EMPLOYEE (
+    employee_id INT,
+    email STRING UNIQUE
+);
