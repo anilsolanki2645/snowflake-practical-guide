@@ -104,3 +104,11 @@ CREATE TABLE CUSTOMERS (
 );
 
 
+-- [11] Create a Table with NOT NULL Constraints
+
+CREATE TABLE SALES (
+    sale_id INT NOT NULL,
+    product_id INT NOT NULL,
+    sale_date DATE NOT NULL
+);
+
