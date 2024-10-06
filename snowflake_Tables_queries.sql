@@ -81,3 +81,17 @@ CREATE TABLE UNIQUE_EMPLOYEE (
     employee_id INT,
     email STRING UNIQUE
 );
+
+
+-- [9] Create a Table with a Foreign Key
+
+CREATE TABLE DEPARTMENT (
+    department_id INT PRIMARY KEY,
+    department_name STRING
+);
+CREATE TABLE F_EMPLOYEE (
+    employee_id INT,
+    department_id INT,
+    FOREIGN KEY (department_id) REFERENCES DEPARTMENT(department_id)
+);
+
