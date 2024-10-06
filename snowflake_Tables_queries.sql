@@ -95,3 +95,12 @@ CREATE TABLE F_EMPLOYEE (
     FOREIGN KEY (department_id) REFERENCES DEPARTMENT(department_id)
 );
 
+
+-- [10] Create a Table with a Primary Key
+
+CREATE TABLE CUSTOMERS (
+    customer_id INT PRIMARY KEY,
+    customer_name STRING
+);
+
+
