@@ -112,3 +112,11 @@ CREATE TABLE SALES (
     sale_date DATE NOT NULL
 );
 
+
+-- [12] Create a Table with Default Column Collation
+
+CREATE TABLE DEFAULT_EMPLOYEE (
+    col1 STRING COLLATE 'en-ci',
+    col2 STRING COLLATE 'fr'
+);
+
