@@ -124,3 +124,8 @@ CREATE TABLE DEFAULT_EMPLOYEE (
 -- [13] Create a Table from an Existing Table (No Data)
 
 CREATE TABLE STATGING_SALES LIKE SALES;
+
+-- [14] Create a Table from an Existing Table (With Data)
+
+CREATE TABLE NEW_CUSTOMERS AS
+SELECT * FROM CUSTOMERS;
