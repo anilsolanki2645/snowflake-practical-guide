@@ -144,3 +144,10 @@ INSERT INTO EMPLOYEE (id, name, created_at)
 VALUES 
     (2, 'Jane Smith', CURRENT_TIMESTAMP),
     (3, 'Bob Johnson', CURRENT_TIMESTAMP);
+    
+
+-- [17] Update Data in a Table
+
+UPDATE EMPLOYEE
+SET name = 'John Smith'
+WHERE id = 1;
