@@ -125,12 +125,22 @@ CREATE TABLE DEFAULT_EMPLOYEE (
 
 CREATE TABLE STATGING_SALES LIKE SALES;
 
+
 -- [14] Create a Table from an Existing Table (With Data)
 
 CREATE TABLE NEW_CUSTOMERS AS
 SELECT * FROM CUSTOMERS;
 
+
 -- [15] Insert Data into a Table
 
 INSERT INTO EMPLOYEE (id, name, created_at)
 VALUES (1, 'John Doe', CURRENT_TIMESTAMP);
+
+
+-- [16] Insert Multiple Rows into a Table
+
+INSERT INTO EMPLOYEE (id, name, created_at)
+VALUES 
+    (2, 'Jane Smith', CURRENT_TIMESTAMP),
+    (3, 'Bob Johnson', CURRENT_TIMESTAMP);
