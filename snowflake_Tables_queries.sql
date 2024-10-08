@@ -151,3 +151,7 @@ VALUES
 UPDATE EMPLOYEE
 SET name = 'John Smith'
 WHERE id = 1;
+
+-- [18] Delete Data from a Table
+
+DELETE FROM EMPLOYEE WHERE id = 1;
