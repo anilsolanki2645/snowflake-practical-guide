@@ -169,3 +169,12 @@ DROP TABLE IF EXISTS EMPLOYEE;
 -- [21] Clone a Table (Time Travel)
 
 CREATE TABLE EMPLOYEE_CLONE CLONE EMPLOYEE AT (TIMESTAMP => '2024-10-01 10:28:07.144');
+
+
+-- [22] Create a Table with a Time Travel Retention Policy
+
+CREATE TABLE TIME_TRAVEL_EMPLOYEE (
+    id INT,
+    name STRING
+)
+DATA_RETENTION_TIME_IN_DAYS = 7;
