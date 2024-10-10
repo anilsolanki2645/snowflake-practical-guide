@@ -212,3 +212,9 @@ ALTER TABLE EMPLOYEE MODIFY COLUMN name STRING(100);
 
 CREATE MATERIALIZED VIEW mv_orders AS
 SELECT order_id, customer_id, amount FROM orders;
+
+
+-- [30] Create a Secure View on a Table
+
+CREATE SECURE VIEW secure_view AS
+SELECT * FROM EMPLOYEE;
