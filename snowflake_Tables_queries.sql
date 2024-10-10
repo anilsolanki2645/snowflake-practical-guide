@@ -218,3 +218,7 @@ SELECT order_id, customer_id, amount FROM orders;
 
 CREATE SECURE VIEW secure_view AS
 SELECT * FROM EMPLOYEE;
+
+-- [31] Show Tables in the Current Schema
+
+SHOW TABLES;
