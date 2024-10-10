@@ -222,3 +222,7 @@ SELECT * FROM EMPLOYEE;
 -- [31] Show Tables in the Current Schema
 
 SHOW TABLES;
+
+-- [32] Describe a Table
+
+DESCRIBE TABLE EMPLOYEE;
