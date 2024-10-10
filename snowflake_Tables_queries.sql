@@ -206,3 +206,9 @@ ALTER TABLE EMPLOYEE DROP COLUMN status;
 -- [27] Alter a Table to Modify Column Data Type
 
 ALTER TABLE EMPLOYEE MODIFY COLUMN name STRING(100);
+
+
+-- [28] Create a Materialized View from a Table
+
+CREATE MATERIALIZED VIEW mv_orders AS
+SELECT order_id, customer_id, amount FROM orders;
