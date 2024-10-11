@@ -226,3 +226,7 @@ SHOW TABLES;
 -- [32] Describe a Table
 
 DESCRIBE TABLE EMPLOYEE;
+
+-- [33] Show Table Details
+
+SHOW TABLES LIKE 'EMPLOYEE';
