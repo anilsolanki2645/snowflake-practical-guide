@@ -230,3 +230,7 @@ DESCRIBE TABLE EMPLOYEE;
 -- [33] Show Table Details
 
 SHOW TABLES LIKE 'EMPLOYEE';
+
+-- [34] List All Tables in a Specific Database
+
+SHOW TABLES IN DATABASE EMP;
