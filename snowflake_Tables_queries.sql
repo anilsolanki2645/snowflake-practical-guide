@@ -253,3 +253,10 @@ CREATE TABLE secure_sales (
     sale_id INT,
     sale_amount DECIMAL(10, 2) TAG security_classificatio = 'high'
 );
+
+-- [38] Create Table with NULL Replacement
+
+CREATE TABLE orders_null (
+    order_id INT,
+    amount DECIMAL(10, 2) DEFAULT 0.00
+);
