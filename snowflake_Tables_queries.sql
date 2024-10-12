@@ -246,3 +246,10 @@ WHERE TABLE_NAME = 'EMPLOYEE';
 SELECT ROW_COUNT 
 FROM INFORMATION_SCHEMA.TABLES 
 WHERE TABLE_NAME = 'EMPLOYEE';
+
+-- [37] Create Table with Column-Level Security (Tags)
+
+CREATE TABLE secure_sales (
+    sale_id INT,
+    sale_amount DECIMAL(10, 2) TAG security_classificatio = 'high'
+);
