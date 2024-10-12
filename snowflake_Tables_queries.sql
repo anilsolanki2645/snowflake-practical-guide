@@ -260,3 +260,10 @@ CREATE TABLE orders_null (
     order_id INT,
     amount DECIMAL(10, 2) DEFAULT 0.00
 );
+
+-- [39] Create Table with Default Date Function
+
+CREATE TABLE employees_def (
+    id INT,
+    hire_date DATE DEFAULT CURRENT_DATE()
+);
