@@ -267,3 +267,8 @@ CREATE TABLE employees_def (
     id INT,
     hire_date DATE DEFAULT CURRENT_DATE()
 );
+
+-- [40] Load Data into an External Table
+
+COPY INTO ext_table FROM @my_stage FILE_FORMAT = (TYPE = 'CSV');
+
