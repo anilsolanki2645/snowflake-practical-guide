@@ -286,3 +286,11 @@ CREATE TABLE json_data_table (
     id INT,
     data VARIANT
 );
+
+
+-- [44] Create a Table with Geospatial Data
+
+CREATE TABLE geospatial_data_table (
+    id INT,
+    geo_data GEOGRAPHY
+);
