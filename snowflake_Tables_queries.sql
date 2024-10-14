@@ -294,3 +294,8 @@ CREATE TABLE geospatial_data_table (
     id INT,
     geo_data GEOGRAPHY
 );
+
+
+-- [45] Export Data from a Table
+
+COPY INTO @my_stage FROM EMPLOYEE FILE_FORMAT = (TYPE = 'CSV');
