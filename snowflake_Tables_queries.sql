@@ -278,3 +278,11 @@ MERGE INTO target_table USING source_table
 ON target_table.id = source_table.id
 WHEN MATCHED THEN UPDATE SET target_table.name = source_table.name
 WHEN NOT MATCHED THEN INSERT (id, name) VALUES (source_table.id, source_table.name);
+
+
+-- [42] Create a Table with JSON Data (VARIANT)
+
+CREATE TABLE json_data_table (
+    id INT,
+    data VARIANT
+);
