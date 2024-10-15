@@ -144,7 +144,7 @@ INSERT INTO EMPLOYEE (id, name, created_at)
 VALUES 
     (2, 'Jane Smith', CURRENT_TIMESTAMP),
     (3, 'Bob Johnson', CURRENT_TIMESTAMP);
-    
+
 
 -- [17] Update Data in a Table
 
@@ -157,6 +157,7 @@ WHERE id = 1;
 
 DELETE FROM EMPLOYEE WHERE id = 1;
 
+
 -- [19] Truncate a Table
 
 TRUNCATE TABLE EMPLOYEE;
@@ -165,6 +166,7 @@ TRUNCATE TABLE EMPLOYEE;
 -- [20] Drop a Table
 
 DROP TABLE IF EXISTS EMPLOYEE;
+
 
 -- [21] Clone a Table (Time Travel)
 
@@ -203,6 +205,7 @@ ALTER TABLE EMPLOYEE ADD COLUMN status STRING DEFAULT 'active';
 
 ALTER TABLE EMPLOYEE DROP COLUMN status;
 
+
 -- [27] Alter a Table to Modify Column Data Type
 
 ALTER TABLE EMPLOYEE MODIFY COLUMN name STRING(100);
@@ -219,21 +222,26 @@ SELECT order_id, customer_id, amount FROM orders;
 CREATE SECURE VIEW secure_view AS
 SELECT * FROM EMPLOYEE;
 
+
 -- [31] Show Tables in the Current Schema
 
 SHOW TABLES;
+
 
 -- [32] Describe a Table
 
 DESCRIBE TABLE EMPLOYEE;
 
+
 -- [33] Show Table Details
 
 SHOW TABLES LIKE 'EMPLOYEE';
 
+
 -- [34] List All Tables in a Specific Database
 
 SHOW TABLES IN DATABASE EMP;
+
 
 -- [35] Check the Size of a Table
 
@@ -241,11 +249,13 @@ SELECT *
 FROM INFORMATION_SCHEMA.TABLE_STORAGE_METRICS 
 WHERE TABLE_NAME = 'EMPLOYEE';
 
+
 -- [36] Check Row Count in a Table
 
 SELECT ROW_COUNT 
 FROM INFORMATION_SCHEMA.TABLES 
 WHERE TABLE_NAME = 'EMPLOYEE';
+
 
 -- [37] Create Table with Column-Level Security (Tags)
 
@@ -254,12 +264,14 @@ CREATE TABLE secure_sales (
     sale_amount DECIMAL(10, 2) TAG security_classificatio = 'high'
 );
 
+
 -- [38] Create Table with NULL Replacement
 
 CREATE TABLE orders_null (
     order_id INT,
     amount DECIMAL(10, 2) DEFAULT 0.00
 );
+
 
 -- [39] Create Table with Default Date Function
 
@@ -268,9 +280,11 @@ CREATE TABLE employees_def (
     hire_date DATE DEFAULT CURRENT_DATE()
 );
 
+
 -- [40] Load Data into an External Table
 
 COPY INTO ext_table FROM @my_stage FILE_FORMAT = (TYPE = 'CSV');
+
 
 -- [41] Merge Data into a Table
 
@@ -285,6 +299,14 @@ WHEN NOT MATCHED THEN INSERT (id, name) VALUES (source_table.id, source_table.na
 CREATE TABLE json_data_table (
     id INT,
     data VARIANT
+);
+
+
+-- [43] Create a Table with XML Data
+
+CREATE TABLE xml_data_table (
+    id INT,
+    xml_column variant
 );
 
 
@@ -304,3 +326,10 @@ COPY INTO @my_stage FROM EMPLOYEE FILE_FORMAT = (TYPE = 'CSV');
 -- [46] Unloading Data from a Table into JSON Format
 
 COPY INTO @my_stage FROM (SELECT * FROM EMPLOYEE) FILE_FORMAT = (TYPE = 'JSON');
+
+
+-- [47] Check if a Table Exists (Information Schema)
+
+SELECT TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE TABLE_NAME = 'EMPLOYEE' AND TABLE_SCHEMA = 'PUBLIC';
