@@ -163,9 +163,7 @@ DELETE FROM EMPLOYEE WHERE id = 1;
 TRUNCATE TABLE EMPLOYEE;
 
 
--- [20] Drop a Table
 
-DROP TABLE IF EXISTS EMPLOYEE;
 
 
 -- [21] Clone a Table (Time Travel)
