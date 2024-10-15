@@ -299,3 +299,8 @@ CREATE TABLE geospatial_data_table (
 -- [45] Export Data from a Table
 
 COPY INTO @my_stage FROM EMPLOYEE FILE_FORMAT = (TYPE = 'CSV');
+
+
+-- [46] Unloading Data from a Table into JSON Format
+
+COPY INTO @my_stage FROM (SELECT * FROM EMPLOYEE) FILE_FORMAT = (TYPE = 'JSON');
